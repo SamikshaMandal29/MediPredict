@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MediPredict</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🧠 MediPredict</h1>
+<p>AI Healthcare Risk Predictor</p>
+
+<form action="/predict" method="post">
+
+<input type="number" name="fever" placeholder="Fever (0 or 1)" required>
+
+<input type="number" name="cough" placeholder="Cough (0 or 1)" required>
+
+<input type="number" name="headache" placeholder="Headache (0 or 1)" required>
+
+<input type="number" name="fatigue" placeholder="Fatigue (0 or 1)" required>
+
+<button type="submit">Predict Disease</button>
+
+</form>
+
+<div class="icons">
+💊 🩺 ❤️ 🧬
+</div>
+
+</div>
+
+</body>
+</html>
